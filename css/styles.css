@@ -1,0 +1,154 @@
+/**
+Gros titre : 40px;
+Moyen titre : 25px;
+petit titre : 20px;
+mini titre : 18px;
+paragraphe : 16px;
+*/
+
+body {
+    background-image: url(fond.png);
+}
+
+div.flash-info {
+    width: 400px;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    background-color: #f0f0f0;
+    border: 2px solid green;
+}
+
+div.flash-warn {
+    width: 400px;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    background-color: #f0f0f0;
+    border: 2px solid orange;
+
+}
+
+div.flash-error {
+    width: 400px;
+    padding: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    background-color: #f0f0f0;
+    border: 2px solid red;
+}
+
+.global_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.medium_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.litle_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.mini_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*Affichage des billets*/
+.litle_paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    background-color:rgb(203, 57, 16);
+    padding : 9px;
+    border :rgb(0, 0, 0) solid 1px;
+    width: 40%
+}
+
+.list_billet:link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.list_billet:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(104, 104, 104);
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.list_billet:hover {
+    color: rgb(203, 57, 16);
+}
+
+/*Boutons de tout le site*/
+.text_button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    padding : 6px;
+    width : 250px;
+    display: block; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text_button:hover {
+    background-color:rgb(255, 213, 0);
+}
+
+/*Page d'accueil*/
+.main_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    text-align:center;
+}
+
+.start_paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    background-color:rgb(203, 57, 16);
+    border:rgb(0, 0, 0) solid 2px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 50%;
+}
